@@ -66,7 +66,7 @@ class MongoPersistence implements Persistence {
 }
 
 // Main
-public class OCP {
+public class SRP {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
         cart.addProduct(new Product("Laptop", 50000));
