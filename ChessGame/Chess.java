@@ -12,7 +12,7 @@ enum GameStatus {
     WAITING, IN_PROGRESS, COMPLETED, ABORTED
 }
 
-// Position class to represent coordinates
+
 class Position {
     private int row;
     private int col;
