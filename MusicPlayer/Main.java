@@ -8,7 +8,7 @@ public class Main {
         try {
             MusicPlayerApplication application = MusicPlayerApplication.getInstance();
 
-            // Populate library
+            
             application.createSongInLibrary("Kesariya", "Arijit Singh", "/music/kesariya.mp3");
             application.createSongInLibrary("Chaiyya Chaiyya", "Sukhwinder Singh", "/music/chaiyya_chaiyya.mp3");
             application.createSongInLibrary("Tum Hi Ho", "Arijit Singh", "/music/tum_hi_ho.mp3");
