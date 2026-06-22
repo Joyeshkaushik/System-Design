@@ -42,7 +42,7 @@ class FiveHundredHandler extends Moneyhandler {
         this.numNotes = numNotes;
     }
 
-    @Override
+    
     public void dispense(int amount) {
         int notesNeeded = amount / 500;
 
@@ -72,7 +72,7 @@ class TwoHundredHandler extends Moneyhandler {
         this.numNotes = numNotes;
     }
 
-    @Override
+    
     public void dispense(int amount) {
         int notesNeeded = amount / 200;
 
@@ -102,7 +102,7 @@ class HundredHandler extends Moneyhandler {
         this.numNotes = numNotes;
     }
 
-    @Override
+    
     public void dispense(int amount) {
         int notesNeeded = amount / 100;
 
@@ -136,7 +136,7 @@ public class CORDesignpattern {
         fiveHundredHandler.setNextHandler(twoHundredHandler);
         twoHundredHandler.setNextHandler(hundredHandler);
 
-        int amountToWithdraw = 4000;
+        int amountToWithdraw = 5000;
 
         System.out.println("\nDispensing amount: ₹" + amountToWithdraw);
         thousandHandler.dispense(amountToWithdraw);
